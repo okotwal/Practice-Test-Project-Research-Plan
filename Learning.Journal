@@ -1,0 +1,20 @@
+Short and Condensed Notes:
+1. Django is a Python web framework for building web applications quickly.
+2. It uses the Model-View-Controller (MVC) structure:
+3. Model: Manages data and logic.
+4. View: Controls the user interface.
+5. Controller: Routes URLs to functions.
+6. It simplifies tasks like setting up servers and creating routes.
+7. Includes built-in features like security, sessions, and authentication.
+8. Supports rapid development and scalability for growing apps.
+9. Modular structure allows different teams to work independently on various parts of the application.
+
+
+
+
+Right now, we are researching which types of technologies will be needed in order for us to make our project. For this week specifically, we decided to look into Django. Django is a very popular framework with Python that is used to build web-applications, namely, the backend. 
+It can be paired with HTML, CSS, and JS or React.js for frontend development in our application. We picked a framework in Python because we did data structures and algorithms last year in Python, meaning that we have a strong base of knowledge from the prior year on Python. 
+From what we have researched, Django is one of the simplest and most-beginner friendly backend frameworks with a lot of built in features such as admin site, authentication, and caching, meaning we have to code less lines, therefore, meaning less time to code certain things that if we used other, more complicated, and maybe slightly faster frameworks. 
+The admin site means that we can easily change and modify databases through a user-friendly dashboard on our side. For example, let’s say that a user wants to reset their progress. They could either make another account, or they could contact us, and we could modify the database from our end. Authentication is used mainly for user logins. 
+Caching makes our app way more efficient by reducing the need to access the underlying slower storage layer. Additionally, there is an ORM built into Django. 
+This is super helpful because it makes it easy to use databases. We can make a user model, which stores user profiles+preferences, a test model, which stores details about when the test was taken with the questions, answers, and result, a question model, which stores algebra questions with different difficulty levels, topics, and correct answers, and a performance tracking model, which tracks which topics the users struggle with to give them personalized recommendations. 
